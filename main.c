@@ -19,10 +19,10 @@ int main()
 	if (d >=0)
 	{
 		k1 = (-b + sqrt(d))/(2*a);
-		k2 = (-b + sqrt(d))/(2*a);
+		k2 = (-b - sqrt(d))/(2*a);
 		
-		prin("K1: %d\n", k1);
-		print("K2: %d\n", k2);
+		printf("K1: %d\n", k1);
+		printf("K2: %d\n", k2);
 	}
 	else printf ("disr < 0");
 	
